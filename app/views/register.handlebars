@@ -1,0 +1,82 @@
+<link rel="stylesheet" href="../static/stylesheets/registrer-style.css" />
+<div class="section"></div>
+<main>
+    <center>
+        <div class="section"></div>
+
+        <h4 class="">Cadastre-se</h4>
+        <div class="section"></div>
+
+        <div class="container">
+            <div class="z-depth-1 grey lighten-4 row"
+                style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+                <form action="register" method="post" class="col s12 register-form">
+
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input name="firstName" id="firstName" type="text" class="validate" required />
+                            <label for="firstName">Primeiro nome</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input name="lastName" id="lastName" type="text" class="validate" required />
+                            <label for="lastName">Último nome</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate" required />
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="username" type="text" class="validate" required />
+                            <label for="username">Nome de usuário</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate" required />
+                            <label for="password">Senha</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="confirmPassword" type="password" class="validate" required />
+                            <label for="confirmPassword" data-error="As senhas não se equivalem"
+                                data-success="As senhas se equivalem">Confirme a senha</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <button type="submit" name="register-button" class="col btn waves-effect">Cadastrar</button>
+                        <button type="reset" name="register-button"
+                            class="col btn waves-efefct right button-reset">Limpar</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </center>
+
+    <div class="section"></div>
+</main>
+
+<script>
+    /*
+    // No, I am not using JQuery
+    const $ = document.querySelector.bind(document);
+
+    const passwordField = $('#password');
+    const confirmPasswordField = $('confirm-password');
+
+    document.getElementById('confirm-password').addEventListener('mouseout', () => ){
+        if (passwordField.vaue 5 == confirmPasswordField.value) {
+            this.classList.remove('invalid');
+            this.classList.add('valid')
+        }
+    }
+    */
+
+</script>
